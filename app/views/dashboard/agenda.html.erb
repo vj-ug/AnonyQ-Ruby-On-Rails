@@ -1,0 +1,68 @@
+<section id="sub-header">
+<div class="container">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1 text-center">
+			<h1>Schedule</h1>
+			
+		</div>
+	</div><!-- End row -->
+</div><!-- End container -->
+<div class="divider_top"></div>
+</section><!-- End sub-header -->
+
+<section id="main_content">
+<div class="container">
+
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li class="active">Active page</li>
+</ol>
+
+<div class="row">
+  </div>
+      <ul class="cbp_tmtimeline">
+          <li>
+            <time class="cbp_tmtime" datetime="09:30"><span>2 hours</span> <span>09:30</span></time>
+            <div class="cbp_tmicon timeline_icon_audio"></div>
+            <div class="cbp_tmlabel">
+            <div class="pull-right hidden-xs">Speaker <strong>John Doe</strong>
+            <%= image_tag "theme/teacher_1.jpg", alt:"", class:"img-circle speaker" %></div>
+            </div>
+          </li>
+          <li>
+            <time class="cbp_tmtime" datetime="11:30"><span>2 hours</span> <span>11:30</span></time>
+            <div class="cbp_tmicon timeline_icon_video"></div>
+            <div class="cbp_tmlabel">
+            <div class="pull-right hidden-xs">Speaker <strong>John Doe</strong><%= image_tag "theme/teacher_2.jpg", alt:"", class:"img-circle speaker" %></div>
+            </div>
+          </li>
+          <li>
+            <time class="cbp_tmtime" datetime="13:30"><span>1 hour</span> <span>13:30</span></time>
+            <div class="cbp_tmicon timeline_icon_break"></div>
+          </li>
+      </ul>
+
+<hr class="add_bottom_45">
+
+<div class="row">
+<div class="col-md-4">
+	<h3>Faq</h3>
+    Questions! Questions everywhere!
+</div>
+<div class="col-md-8">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading"></div>
+  </div>
+</div>
+</div><!-- End col-md-8 -->
+</div>
+</div><!-- End container -->
+ 
+</section>
+
+<%= render partial: "layouts/start_learning" %>

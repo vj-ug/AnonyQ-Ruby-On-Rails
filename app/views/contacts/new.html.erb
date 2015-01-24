@@ -1,0 +1,73 @@
+<section id="main_content" >
+<div class="container">
+<div class="row">
+    <div class="col-md-4">
+        <h3>Address</h3>
+        <ul id="contact-info">
+            <li><i class=" icon-email"></i> <a href="#">ask@anonyq.co</a></li>
+        </ul>
+        <hr>
+        <h3>Follow us</h3>
+        <p>
+            AnonyQ!
+        </p>
+        <hr>
+        <a href="#" class="button_medium_outline">Apply</a>
+    </div>
+    <div class="col-md-8">
+        <div class=" box_style_2">
+            <span class="tape"></span>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>E-mail us!</h3>
+                </div>
+            </div>
+            <div id="message-contact"></div>
+            <%= form_for @contact, id:'contactform' do |f| %>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <%= f.text_field :first_name, class:"form-control style_2", id:"name_contact", placeholder:"First Name" %>
+                            <span class="input-icon"><i class="icon-user"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <%= f.text_field :last_name, class:"form-control style_2", id:"lastname_contact", placeholder:"Last Name" %>
+                            <span class="input-icon"><i class="icon-user"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <%= f.text_field :email, type:"email", id:"email_contact", class:"form-control style_2", placeholder:"Email" %>
+                            <span class="input-icon"><i class="icon-email"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <%= f.phone_field :phone, type:"text", id:"phone_contact", class:"form-control style_2", placeholder:"Phone number" %>
+                            <span class="input-icon"><i class="icon-phone"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <%= f.text_area :message, rows:"5", id:"message_contact", class:"form-control", placeholder:"Write your message", style: "height:200px" %>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <%= f.submit value:"Send", class:"button_medium", id:"submit-contact" %>
+                    </div>
+                </div>
+            <% end %>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>

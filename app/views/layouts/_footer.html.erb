@@ -1,0 +1,46 @@
+<% unless user_signed_in? %>
+<footer>
+
+<hr>
+
+<div class="container" id="nav-footer">
+	<div class="row text-left">
+		<div class="col-md-3 col-sm-3">
+			<h4>Options</h4>
+			<ul>
+				<li><a href="">For K-12</a></li>
+				<li><a href="">For Community Colleges</a></li>
+				<li><a href="">For Universities</a></li>
+				<li><%= link_to "Contact Us", contact_us_path %></li>
+			</ul>
+		</div><!-- End col-md-4 -->
+		<div class="col-md-3 col-sm-3">
+			<h4>Partners</h4>
+			<ul>
+				<li><a href="http://dallasedu.startupweekend.org/">Startup Weekend EDU Dallas</a></li>
+			</ul>
+		</div><!-- End col-md-4 -->
+		<div class="col-md-3 col-sm-3">
+			<h4>Join Today</h4>
+			<ul>
+				<li><%= link_to "About Us", about_path %></li>
+			</ul>
+		</div><!-- End col-md-4 -->
+		<div class="col-md-3 col-sm-3">
+			<ul id="follow_us">
+				<li><a href="http://facebook.com/cgupta731"><i class="icon-facebook"></i></a></li>
+				<li><a href="http://twitter.com/chicagogupta"><i class="icon-twitter"></i></a></li>
+				<li><a href="http://google.com/"><i class=" icon-google"></i></a></li>
+			</ul>
+			<ul>
+				<li><strong class="phone">972.123.4567</strong><br><small>Mon - Fri / 9.00AM - 09.00PM</small></li>
+				<li>Questions? <a href="#">hello@anonyq.com</a></li>
+			</ul>
+		</div><!-- End col-md-4 -->
+	</div><!-- End row -->
+</div>
+<div id="copy_right">© 2014</div>
+</footer>
+<% else %>
+	<div id="copy_right" style="text-align:center;">© 2014</div>
+<% end %>
