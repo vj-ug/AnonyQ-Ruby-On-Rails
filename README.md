@@ -7,3 +7,4 @@ Mobile Responsive web platform  to allow students anonymously ask questions to p
 "Students are afraid of embarrasment thinking their questions are too naive." 
 AnonyQ doesn't want to lose these precious gems -- the in-class questions.
 
+# Hosted on heroku
