@@ -9,5 +9,6 @@ AnonyQ doesn't want to lose these precious gems -- the in-class questions.
 
 As Oscar Wilde says "Give a man a mask and he will be his true self."
 
+Hosted on Heroku.   
 
-Hosted on Heroku.   Azure option is being explored. 
+Professor and Student have their own screen. 
