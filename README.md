@@ -1,6 +1,7 @@
 # AnonyQ-Ruby-On-Rails
 
 AnonyQ -- Startup Weekend Winner  (Confidential Seed funding)
+http://blog.up.co/2014/11/26/swdallaseduwinner/
 - Selected for Top 20 Global Startup Finals!
 
 Mobile Responsive web platform  to allow students anonymously ask questions to professors during class time.
